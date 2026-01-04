@@ -3,17 +3,26 @@
 ## Day 1 – Python Basics
 **Date:** December 30  
 **Topics Covered:** Variables, Printing, User Input  
-**Project:** Simple Calculator
+**Project:** Band name generator 
 
 ### What I Learned
-- How to declare and use variables
-- Printing output using print()
-- Taking user input
-- Performing arithmetic operations
-- Handling division by zero
+Basic Coding: use PyCharm 
 
-### Files
-- calculator.py – Simple calculator using Python basics
+	→ Print:  print("Hello World")
 
-### Next Step
-- Learn data types, strings, and conditionals (Day 2)
+	→ String manipulation:  print("Hello World\n Hello World")
+	                                      -> Hello World
+	                                           Hello World
+	
+	→ Get user input:   input("What is your name?")
+                                        -> What is your name? ____
+	If user want to input a specific data type which is used later: int(input("Tell me a number: " ))
+
+	→ Variables:  name= input ( " What is your name?")
+                              print ( " hello "  + name )
+                             -> What is your name? boobha
+                             hello boobha
+
+	→ Length: print (Len(name))
+                        -> 6
+                        
